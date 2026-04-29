@@ -572,6 +572,9 @@ section h2 {
     border-radius: 12px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
 .assignment-header {
@@ -599,6 +602,9 @@ section h2 {
 
 .assignment-content {
     padding: 1.5rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
 }
 
 .assignment-description {
@@ -649,6 +655,8 @@ section h2 {
     display: flex;
     gap: 1rem;
     flex-wrap: wrap;
+    margin-top: auto;
+    padding-top: 1.5rem;
 }
 
 /* Resources Grid */
