@@ -394,18 +394,11 @@ section h2 {
 
 /* Insights Grid */
 .insights-grid {
-    display: grid !important;
-    grid-template-columns: repeat(3, 1fr) !important;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
     margin-top: 3rem;
     width: 100%;
-    background: red !important;
-    min-height: 400px !important;
-}
-
-.insights-grid .insight-card {
-    background: white !important;
-    border: 2px solid blue !important;
 }
 
 /* Insight Cards */
