@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teaching Resources - AP CS A Ethics Integration</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <h1>AP CS A Ethics</h1>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="insights.html" class="nav-link">Insights</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="resources.html" class="nav-link active">Resources</a>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>Teaching Resources</h1>
+                <p>Ready-to-use ethics assignments and teaching materials for your AP Computer Science A classroom</p>
+            </div>
+        </section>
+
+        <section class="assignments-section">
+            <div class="container">
+                <h2>Ethics Assignments</h2>
+                <p>Four comprehensive ethics activities designed to integrate seamlessly into your AP CS A curriculum. Each assignment includes student handouts, teacher guides, and assessment rubrics.</p>
+                
+                <div class="assignments-grid">
+                    <div class="assignment-card">
+                        <div class="assignment-header">
+                            <h3>Assignment 1: Data Privacy & Arrays</h3>
+                            <div class="assignment-level">Beginner</div>
+                            <div class="assignment-duration">2 class periods</div>
+                        </div>
+                        <div class="assignment-content">
+                            <div class="assignment-description">
+                                <p>Students explore data collection and privacy implications while working with arrays and data structures. Includes a case study on social media data collection.</p>
+                            </div>
+                            <div class="assignment-topics">
+                                <h4>CS Topics Covered:</h4>
+                                <ul>
+                                    <li>Arrays and ArrayLists</li>
+                                    <li>Data storage and retrieval</li>
+                                    <li>Basic sorting algorithms</li>
+                                </ul>
+                            </div>
+                            <div class="assignment-ethics">
+                                <h4>Ethics Focus:</h4>
+                                <ul>
+                                    <li>Data privacy and consent</li>
+                                    <li>Responsible data collection</li>
+                                    <li>User rights and transparency</li>
+                                </ul>
+                            </div>
+                            <div class="assignment-download">
+                                <button class="btn btn-primary" onclick="downloadResource('assignment1')">Download Assignment</button>
+                                <button class="btn btn-secondary" onclick="downloadResource('assignment1-teacher')">Teacher Guide</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="assignment-card">
+                        <div class="assignment-header">
+                            <h3>Assignment 2: Algorithmic Bias & Decision Making</h3>
+                            <div class="assignment-level">Intermediate</div>
+                            <div class="assignment-duration">3 class periods</div>
+                        </div>
+                        <div class="assignment-content">
+                            <div class="assignment-description">
+                                <p>Students examine how algorithms can perpetuate bias while learning about conditional statements and decision-making structures. Features real-world case studies.</p>
+                            </div>
+                            <div class="assignment-topics">
+                                <h4>CS Topics Covered:</h4>
+                                <ul>
+                                    <li>Conditional statements</li>
+                                    <li>Boolean logic</li>
+                                    <li>Method design</li>
+                                </ul>
+                            </div>
+                            <div class="assignment-ethics">
+                                <h4>Ethics Focus:</h4>
+                                <ul>
+                                    <li>Algorithmic bias</li>
+                                    <li>Fairness in automated decisions</li>
+                                    <li>Diversity in tech</li>
+                                </ul>
+                            </div>
+                            <div class="assignment-download">
+                                <button class="btn btn-primary" onclick="downloadResource('assignment2')">Download Assignment</button>
+                                <button class="btn btn-secondary" onclick="downloadResource('assignment2-teacher')">Teacher Guide</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="assignment-card">
+                        <div class="assignment-header">
+                            <h3>Assignment 3: AI Ethics & Object-Oriented Programming</h3>
+                            <div class="assignment-level">Advanced</div>
+                            <div class="assignment-duration">4 class periods</div>
+                        </div>
+                        <div class="assignment-content">
+                            <div class="assignment-description">
+                                <p>Students design an AI system while considering ethical implications. Connects OOP concepts with responsible AI development principles.</p>
+                            </div>
+                            <div class="assignment-topics">
+                                <h4>CS Topics Covered:</h4>
+                                <ul>
+                                    <li>Classes and objects</li>
+                                    <li>Inheritance and polymorphism</li>
+                                    <li>Method overriding</li>
+                                </ul>
+                            </div>
+                            <div class="assignment-ethics">
+                                <h4>Ethics Focus:</h4>
+                                <ul>
+                                    <li>AI accountability</li>
+                                    <li>Transparency in algorithms</li>
+                                    <li>Ethical AI design</li>
+                                </ul>
+                            </div>
+                            <div class="assignment-download">
+                                <button class="btn btn-primary" onclick="downloadResource('assignment3')">Download Assignment</button>
+                                <button class="btn btn-secondary" onclick="downloadResource('assignment3-teacher')">Teacher Guide</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="assignment-card">
+                        <div class="assignment-header">
+                            <h3>Assignment 4: Cybersecurity & Social Responsibility</h3>
+                            <div class="assignment-level">Intermediate</div>
+                            <div class="assignment-duration">3 class periods</div>
+                        </div>
+                        <div class="assignment-content">
+                            <div class="assignment-description">
+                                <p>Students explore cybersecurity ethics while learning about network security and data protection. Includes discussions of white-hat vs black-hat hacking.</p>
+                            </div>
+                            <div class="assignment-topics">
+                                <h4>CS Topics Covered:</h4>
+                                <ul>
+                                    <li>Network security basics</li>
+                                    <li>Encryption and hashing</li>
+                                    <li>Input validation</li>
+                                </ul>
+                            </div>
+                            <div class="assignment-ethics">
+                                <h4>Ethics Focus:</h4>
+                                <ul>
+                                    <li>Responsible disclosure</li>
+                                    <li>Digital citizenship</li>
+                                    <li>Cybersecurity ethics</li>
+                                </ul>
+                            </div>
+                            <div class="assignment-download">
+                                <button class="btn btn-primary" onclick="downloadResource('assignment4')">Download Assignment</button>
+                                <button class="btn btn-secondary" onclick="downloadResource('assignment4-teacher')">Teacher Guide</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 AP CS A Ethics Integration. Supporting teachers in creating responsible programmers.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        function downloadResource(resource) {
+            // Map resources to actual files
+            const fileMap = {
+                'assignment1': 'unit1.docx',
+                'assignment1-teacher': 'unit1.docx',
+                'assignment2': 'unit2.docx',
+                'assignment2-teacher': 'unit2.docx',
+                'assignment3': 'unit3.docx',
+                'assignment3-teacher': 'unit3.docx',
+                'assignment4': 'unit4.docx',
+                'assignment4-teacher': 'unit4.docx'
+            };
+            
+            const filename = fileMap[resource];
+            if (filename) {
+                // Create a link element and trigger download
+                const link = document.createElement('a');
+                link.href = filename;
+                link.download = filename;
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+            } else {
+                alert(`Download functionality for ${resource} will be implemented when you add your Word documents.`);
+            }
+        }
+    </script>
+</body>
+</html>
